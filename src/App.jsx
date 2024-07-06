@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Tailwind.output.css';
+import './tailwind.css';
 import SearchBar from './Components/SearchMovies';
 import Header from './Components/Header';
 
