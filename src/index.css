@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url('movie-theater-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-image: url('./bg1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.search-container {
+  padding: 2em;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #3e8e41;
+}
+
+.search-results {
+  padding: 2em;
+}
+
+.search-result {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-result img {
+  width: 100px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.search-result h2 {
+  margin-top: 0;
+}
+
+.search-result p {
+  margin-bottom: 20px;
+}
